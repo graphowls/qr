@@ -1,6 +1,6 @@
 # QR | Graph Owls
 
-Generate QR codes 
+Generate QR codes
 
 ## Usage
 
@@ -14,7 +14,6 @@ pip install "qrcode[pil]"
 python3 ./generate.py "$URL"
 # rounded QR code
 python3 ./generate.py -r "$URL"
-# Rounded and masked QR code 
+# rounded and masked QR code 
 python3 ./generate.py -r -m "$URL"
 ```
-
